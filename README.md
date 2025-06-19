@@ -1,7 +1,9 @@
 # ETL_EXAM
 Этапы проекта:
 1. Установка Yandex CLI, YDB CLI, настройка авторизации, создание ydb, перенос данных в s3
-2. Настройка Apache Airflow, Yandex MetaDataHub, Yandex Data Processing, pyspark скрипт и DAG
+2. Настройка Apache Airflow, Yandex MetaDataHub, Yandex Data Processing, написание pyspark скрипта и DAG
+3. Работа с топиками Apache Kafka® с помощью PySpark-заданий в Yandex Data Processing(WIP)
+4. Визуализация в DataLens(WIP)
 ## TASK_01:
 - Выполнена установка Yandex CLI + YDB CLI (version 2.19, 2.20+ is not working)
 - Настроена авторизация через oauth-token + iam-token для подключения к YDB
