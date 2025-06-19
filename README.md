@@ -146,5 +146,6 @@ delete_cluster = DataprocDeleteClusterOperator(
 create_cluster >> spark_processing_job >> delete_cluster
 ```
 - Скриншот готового датасета:
+
 ![Скриншот](task_02/tr_silver.png)
 
