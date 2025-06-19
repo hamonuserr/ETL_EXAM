@@ -151,3 +151,7 @@ create_cluster >> spark_processing_job >> delete_cluster
 
 ![Скриншот](task_02/tr_silver.png)
 
+- Просмотр датасета(через спарк сессию в Jupyter Notebook):
+
+![Скриншот](task_02/read_spark.png)
+
