@@ -52,11 +52,11 @@ try:
         .withColumn("actual_amount_paid", col("actual_amount_paid").cast(IntegerType())) \
         .withColumn("is_auto_renew", col("is_auto_renew").cast(BooleanType())) \
         .withColumn("is_cancel", col("is_cancel").cast(BooleanType())) \
-        .withColumn("membership_expire_date", to_date(col("membership_expire_date").cast("string"), "yyyy-MM-dd")) \
+        .withColumn("membership_expire_date", to_date(col("membership_expire_date").cast("string"), "yyyyMMdd")) \
         .withColumn("payment_method_id", col("payment_method_id").cast(IntegerType())) \
         .withColumn("payment_plan_days", col("payment_plan_days").cast(IntegerType())) \
         .withColumn("plan_list_price", col("plan_list_price").cast(IntegerType())) \
-        .withColumn("transaction_date", to_date(col("transaction_date").cast("string"), "yyyy-MM-dd")))
+        .withColumn("transaction_date", to_date(col("transaction_date").cast("string"), "yyyyMMdd")))
 
 
 #--------------------
