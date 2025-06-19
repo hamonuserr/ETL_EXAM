@@ -26,3 +26,6 @@ create table transactions_v2 (
 
 - Использована утилита Yandex Data Transfer для переноса таблицы в s3 storage:
 ![Скриншот](task_01/ydt_work.png)
+
+## TASK_02:
+- Выполнена настройка окружения
